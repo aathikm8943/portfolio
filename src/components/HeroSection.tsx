@@ -1,13 +1,13 @@
 // File: src/components/HeroSection.tsx
 import React from "react";
 import {
-  FaReact, FaNodeJs, FaGit, FaPython, FaJava, FaRProject, FaAws, FaDocker, FaFigma
+  FaReact, FaNodeJs, FaGit, FaPython, FaRProject, FaAws, FaDocker, FaFigma
 } from "react-icons/fa";
 import { BiBarChart } from "react-icons/bi";
 import {
   SiTypescript, SiJavascript, SiMongodb, SiMysql, SiPostgresql, SiTensorflow,
   SiScikitlearn, SiFastapi, SiFlask, SiOpenai, SiExpress, SiLangchain,
-  SiPowers, SiChai, SiMocha
+  SiChai, SiMocha
 } from "react-icons/si";
 import profile from "../assets/Aathi_Profile.jpeg";
 

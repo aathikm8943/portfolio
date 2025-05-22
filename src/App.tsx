@@ -2,7 +2,7 @@
 import React from "react";
 import HeroSection from "./components/HeroSection";
 import ExperienceSection from "./components/ExperienceSection";
-import ProjectsSection from "./components/ProjectsSection";
+// import ProjectsSection from "./components/ProjectsSection";
 import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
 import Loader from "./components/Loader";
