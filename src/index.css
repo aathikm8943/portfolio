@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme{
+  --font-fira-code: 'Fira Code', sans-serif;
+}
+
+@layer utilities {
+  .animate-scroll-slow {
+    animation: scroll-left 50s linear infinite;
+  }
+  @keyframes scroll-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+}
+
+@layer base {
+  html {
+    font-family: var(--font-fira-code);
+  }
+
+  body {
+    font-family: var(--font-fira-code);
+    background-color: var(--color-backgroundSecondary);
+  }
+
+  p{
+    font-family: var(--font-fira-code);
+  }
+}
