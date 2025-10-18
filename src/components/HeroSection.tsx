@@ -26,11 +26,14 @@ const HeroSection: React.FC = () => {
       <div className="max-w-xl lg:max-w-4xl md:max-w-2xl sm:max-w-xl mt-[50px]">
         <h1 className="text-4xl md:text-5xl font-bold">Hi I am Aathi !</h1>
         <p className="text-2xl mt-2 text-[#C084FC] font-semibold">
-          Full Stack Developer <span className="text-white">and</span> AI, Data Enthusiast...
+          AI Engineer <span className="text-white">&</span> Data Infrastructure Engineer
         </p>
         <p className="mt-4 text-sm text-gray-400">
-          I'm a full-stack developer with experience in data analytics, data engineering, and AI-driven web tools.
-          I've built intelligent dashboards, automation systems, and educational platforms using Python, MERN, TypeScript, R and cloud-native technologies.
+          I architect and deploy sophisticated AI/ML solutions and scalable data platforms. 
+          My expertise spans from designing robust machine learning pipelines to building 
+          high-performance data infrastructure using TensorFlow, LangChain, and cloud-native 
+          technologies. I specialize in transforming complex data challenges into efficient, 
+          production-ready systems.
         </p>
 
         {/* Skills Icons (Scrolling Strip) */}

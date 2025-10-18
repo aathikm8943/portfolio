@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const projects = [
   {
@@ -21,9 +22,17 @@ const projects = [
 const ProjectsSection: React.FC = () => {
   return (
     <section className="">
+      <div className="flex justify-between items-center">
+
       <h2 className="text-3xl font-semibold text-[#C084FC] border-b border-[#C084FC] inline-block pb-1 mb-6">
         #Projects
       </h2>
+      <div className="">
+        <Link to="/projects" className="inline-block px-4 py-2 bg-[#C084FC] text-black rounded font-medium">
+          View more
+        </Link>
+      </div>
+      </div>
       <div className="grid md:grid-cols-3 gap-6">
         {projects.map((project, idx) => (
           <div key={idx} className="bg-[#1E1F24] rounded-lg overflow-hidden">
@@ -37,6 +46,7 @@ const ProjectsSection: React.FC = () => {
           </div>
         ))}
       </div>
+      
     </section>
   );
 };
