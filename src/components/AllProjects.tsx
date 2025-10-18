@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowLeft, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+// import agentGif from "../assets/project-gifs/Robot Futuristic Ai animated.gif"
 
 const allProjects = {
     "AI Projects": [
@@ -14,7 +15,7 @@ const allProjects = {
         {
             title: "Multi-Agent RAG System",
             stack: "Python, LangChain, OpenAI API, Retrieval-Augmented Generation",
-            image: "/multi_agent_rag.png",
+            image: "/mcp_server_setup.png",
             description: "An advanced AI system that employs multiple autonomous agents collaborating within a Retrieval-Augmented Generation (RAG) framework. Each agent specializes in tasks like document retrieval, reasoning, and summarization. The project demonstrates multi-agent orchestration, memory sharing, and context-driven responses, enhancing the intelligence of RAG-based architectures.",
             repoUrl: "https://github.com/aathikm8943/multi-agent-rag",
         },
